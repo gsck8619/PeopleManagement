@@ -1,6 +1,7 @@
 import "./styles.css";
+import React from "react";
 
-export default function AddUser() {
+export const AddUser = () => {
   return (
     <div className="FormContainer_AddUser">
       <div className="row">
@@ -118,4 +119,4 @@ export default function AddUser() {
       </div>
     </div>
   );
-}
+};

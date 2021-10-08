@@ -1,4 +1,7 @@
-export default function Navigation(props) {
+import "./styles.css";
+import React from "react";
+
+export const Navigation = () => {
   return (
     <nav className="navbar navbar-expand-lg  bg-dark text-white">
       <div className="container-fluid ">
@@ -59,4 +62,4 @@ export default function Navigation(props) {
       </div>
     </nav>
   );
-}
+};
